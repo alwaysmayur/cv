@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE-edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <section>
+      <!--navigation----------------------------------------->
+      <nav>
+         <!--logo-------------------------------------->
+         <a href="#" class="logo">Mayur Parmar</a>
+         <!--bars--------------------------------------->
+         <div class="toggle">
+         </div>
+         <!--menu----------------------------------->
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Team</a></li>
+         </ul>
+      </nav>
+      <!---text--------------------------------------------->
+      <div class="text-container">
+         <p>Hello,</p>
+         <p>I'M MAYUR </p>
+         <p>I am Computer Engineering Student</p>
+         <button class="hire-btn">Hire me</button>
+         <button class="down-cv">Download CV</button>
+      </div>
+      <!--model----------------------------------------------------------->
+      <img src="Mypic.png" class="model" alt="model">
+   </section>
+   <!--About------------------------------------------------------->
+   <div class="about-container">
+      <!--img---------------------->
+      <img src="Mypic2.png" alt="">
+      <!--About Text-->
+      <div class="about-text">
+         <p>About Me </p>
+         <p></p>Devloper
+         <p>Hello, My name Mayur Parmar. I am beginer at web development but i make projects if you want create a any
+            kind of website for your business Contact Me </p>
+         <p>I am beginer at web development but i make projects if you want create a any kind of website for your
+            business Contact Me</p>
+
+         <!----Button-->
+         <button>Hire Me</button>
+         <button>Download CV</button>
+      </div>
+   </div>
+   <!---services--------------------------------------------->
+   <div class="services">
+      <!--Text------------------>
+      <div class="services-text">
+         <p>Services</p>
+         <p>Services Required</p>
+         <p>If youwant make a website for your business content me.
+         </p>
+      </div>
+      <!--Box------------------------------>
+      <div class="box-container">
+         <div class="box-1">
+            <span>1</span>
+            <p class="heading">Web Design</p>
+            <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione atque nihil
+               consectetur consequatur. Blanditiis deserunt inventore earum ex non!</p>
+            <button>Read More</button>
+         </div>
+         <div class="box-3">
+            <span>2</span>
+            <p class="heading">Security/SEO</p>
+            <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione atque nihil
+               consectetur consequatur. Blanditiis deserunt inventore earum ex non!</p>
+            <button>Read More</button>
+         </div>
+         <div class="box-3">
+            <span>3</span>
+            <p class="heading">Web Development</p>
+            <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ratione atque nihil
+               consectetur consequatur. Blanditiis deserunt inventore earum ex non!</p>
+            <button>Read More</button>
+         </div>
+      </div>
+   </div>
+   <!----Contact Me-------------------------------------------------------------------------->
+   <div class="contact-me">
+      <p>If You Have Any Project In Mind.</p>
+      <button>Contact Me</button>
+   </div>
+   <!---Footer----------------------------------------------------------------->
+   <footer>
+      <p>Mayur Parmar</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate pariatur eligendi velit alias aperiam earum
+         aspernatur, facilis rerum laborum porro sed explicabo iure minima numquam reiciendis adipisci praesentium sequi
+         sint?</p>
+      <div class="social-media">
+         <a href="#"><i class="fa fa-instagram"></i></a>
+         <a href="#"><i class="fa fa-twitter"></i></a>
+         <a href="#"><i class="fa fa-whatsapp"></i></a>
+         <a href="#"><i class="fa fa-youtube"></i></a>
+         <!--------Copyright-------->
+         <p class="copyright">Copyright 2020 by Mayur Parmar</p>
+      </div>
+   </footer>
+   <!---- Attached Social icon--------------------------------->
+   <div class="a-social-b">
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-whatsapp"></i></a>
+      <a href="#"><i class="fa fa-youtube"></i></a>
+   </div>
+   <!----JQuery-------------------------------------------->
+   <script type="text/javascipt" src="jQuery.js"></script>
+   <script>
+      $( document ).ready( function()
+      {
+         $( '.toggle' ).click( function()
+         {
+            $( '.toggle' ).toggleClass( 'active' );
+            $( 'nav' ).toggleClass( 'active' );
+         } );
+      } );
+   </script>
+</body>
+
+</html>
